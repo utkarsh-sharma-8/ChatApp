@@ -22,7 +22,7 @@ const registerUser=()=>{
             userId:userId,
         }).then(res=>{
             console.log("User Created");
-            navigation.navigate("Login");
+            navigation.navigate("Main");
         }).catch(error=>{
             console.log(error);
         });

@@ -107,5 +107,6 @@ const styles=StyleSheet.create({
         marginTop:50,
         fontSize:20,
         textDecorationLine:"underline",
+        color:"black",
     }
 });
